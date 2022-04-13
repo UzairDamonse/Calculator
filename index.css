@@ -1,0 +1,90 @@
+/* The outside of the calculator */
+
+.Calculator-body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 750px;
+  width: 749px;
+  height: 650px;
+  border: 2px solid black;
+  margin-inline: auto;
+  background-color: silver;
+}
+
+/* Output box */
+
+#Output {
+  width: 680px;
+  height: 100px;
+  border: 2px solid black;
+  margin-top: -10px;
+  margin: 20px;
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  font-family: Georgia, serif;
+  font-size: 50px;
+  background-color: #ffffff;
+}
+
+/* Buttons and stuff */
+
+.Inputs {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  max-width: 710px;
+  gap: 10px;
+}
+.buttons {
+  font-family: Georgia, serif;
+  font-size: 20px;
+  width: 170px;
+  height: 70px;
+  border: 2px;
+  border-radius: 75px;
+}
+
+.buttons:hover {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+/* Numbers */
+
+.Numbers {
+  background-color: rgb(145, 145, 145);
+}
+
+.Functions {
+  background-color: rgb(17, 17, 145);
+}
+
+.Advanced {
+  background-color: rgba(92, 92, 208, 0.662);
+}
+
+#zero {
+  width: 340px;
+}
+
+#clear {
+  background-color: rgb(188, 12, 12);
+}
+#clear:hover {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+#equal {
+  background-color: rgb(188, 12, 12);
+}
+#equal:hover {
+  background-color: #ffffff;
+  cursor: pointer;
+}
