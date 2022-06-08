@@ -8,6 +8,8 @@
   width: 749px;
   height: 650px;
   border: 2px solid black;
+  border-radius: 25px;
+  padding: 10px;
   margin-inline: auto;
   background-color: silver;
 }
@@ -33,7 +35,7 @@
 
 /* Buttons and stuff */
 
-.Inputs {
+#Inputs {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
